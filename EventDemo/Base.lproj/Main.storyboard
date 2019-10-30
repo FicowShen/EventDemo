@@ -22,10 +22,15 @@
                                         <rect key="frame" x="144" y="354" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
                                     </button>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cYP-wx-5Da" customClass="TestSwitch" customModule="EventDemo" customModuleProvider="target">
+                                        <rect key="frame" x="112.5" y="353.5" width="51" height="31"/>
+                                    </switch>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemGrayColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="cYP-wx-5Da" firstAttribute="centerX" secondItem="jB8-sO-Vfw" secondAttribute="centerX" constant="-30" id="CIq-TH-ElU"/>
                                     <constraint firstItem="Rcs-hp-OMC" firstAttribute="centerX" secondItem="jB8-sO-Vfw" secondAttribute="centerX" id="K1A-Pc-PxR"/>
+                                    <constraint firstItem="cYP-wx-5Da" firstAttribute="centerY" secondItem="jB8-sO-Vfw" secondAttribute="centerY" id="ZGT-LY-iTE"/>
                                     <constraint firstItem="Rcs-hp-OMC" firstAttribute="centerY" secondItem="jB8-sO-Vfw" secondAttribute="centerY" id="ocM-Qo-ORb"/>
                                 </constraints>
                             </view>
@@ -42,7 +47,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="138"/>
+            <point key="canvasLocation" x="67" y="30"/>
         </scene>
     </scenes>
 </document>
