@@ -33,7 +33,7 @@ class BackgroundView: UIView {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         printExecutionInfo("<<")
-//        super.touchesBegan(touches, with: event)
+        super.touchesBegan(touches, with: event)
         printExecutionInfo(">>")
     }
 }
